@@ -1,0 +1,46 @@
+/** article 1 about **/
+
+.about-content {
+    display: grid;
+    grid-template-columns: 180px auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.about-content>section:last-child {
+    grid-column: 1/3;
+}
+
+.about-img {
+    width: 180px;
+    height: 220px;
+}
+
+@media screen and (min-width: 700px) {
+
+    .about-content {
+        grid-template-columns: 420px auto;
+    }
+
+    .about-img {
+        width: 420px;
+        height: 520px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+
+    .about-content {
+        grid-template-columns: 420px auto;
+        grid-template-rows: auto auto;
+        gap: 50px;
+    }
+
+    .about-content>section:first-child {
+        grid-row: 1/3;
+    }
+
+    .about-content>section:last-child {
+        grid-column: 2/3;
+    }
+}
