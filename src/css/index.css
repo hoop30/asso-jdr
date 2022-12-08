@@ -55,8 +55,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    border-bottom-right-radius: 5%;
-    border-top-left-radius: 5%;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
     width: 95%;
     height: 95%;
     overflow: hidden;
@@ -72,13 +72,12 @@ body {
     display: inline-block;
     background: transparent;
     border: solid 1px var(--bs-white);
-    border-bottom-right-radius: 5%;
+    border-bottom-right-radius: 15px;
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 15px;
+    left: 15px;
     width: 95%;
     height: 95%;
-    
 }
 
 @media screen and (min-width: 700px) {
@@ -100,5 +99,16 @@ body {
     
     .img-design-border>span {
         border-width: 2px;
+    }
+
+    .img-design-border>div {
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 25px;
+    }
+
+    .img-design-border>span {
+        border-bottom-right-radius: 25px;
+        top: 25px;
+        left: 25px;
     }
 }

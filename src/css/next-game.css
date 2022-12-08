@@ -1,0 +1,49 @@
+.next-game {
+    display: flex;
+    flex-direction: column;
+}
+
+.next-game-img {
+    width: 100%;
+    height: 300px;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+.next-game-desc>p {
+    padding: 0 15px;
+}
+
+.next-game-info>p {
+    font-size: 0.6em;
+    margin-bottom: 0.4em;
+    filter: brightness(0.7);
+}
+
+@media screen and (min-width: 700px) {
+
+    .next-game-img {
+        height: 400px;
+    }
+
+    .next-game-desc-info {
+        align-self: center;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .next-game-desc-info>*:first-child {
+        width: 50%;
+    }
+    .next-game-desc-info>*:last-child {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+
+    .next-game-img {
+        height: 600px;
+    }
+}
