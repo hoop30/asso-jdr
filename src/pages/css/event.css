@@ -1,0 +1,48 @@
+main.event-page {
+    gap: 0;
+}
+
+.art-event-page {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.art-event-page>article {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.art-event-page>article>section:first-child {
+    width: 180px;
+    height: 220px;
+}
+
+@media screen and (min-width: 700px) {
+
+    .art-event-page>article>section:first-child {
+        width: 420px;
+        height: 520px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+
+    main.event-page {
+        gap: 100px;
+    }
+
+    .art-event-page {
+        gap: 150px;
+    }
+    
+    .art-event-page>article {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .art-event-page>article>section:last-child {
+        width: 60%;
+    }
+}
