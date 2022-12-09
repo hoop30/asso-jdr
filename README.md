@@ -1,3 +1,5 @@
+![Project](./projet-Asso-JDR.jpg)
+
 # Studi-Devoir-1 Évaluation d'entraînement
 
 ## Créer un site web avec HTML, CSS et le Framework Bootstrap
@@ -26,7 +28,7 @@ Puis une page évènements contenant :
 Dans un premier temps grâce au logiciel Figma, j'ai pu créer une maquette afin définir les zones puis le wireframe. Afin de réaliser par la suite la maquette finale du projet.
 (La maquette est disponible dans le dossier Figma)
 
-Ensuite grâce à l'IDE VsCode J'ai développé le site avec les langage HTML, CSS et à l'aide de Bootstrap.
+Ensuite grâce à l'IDE VsCode J'ai développé le site avec les langages HTML, CSS et à l'aide de Bootstrap.
 Grace a Git et GitHub, j'ai pu créer un dépôt distant afin d'enregistré régulièrement mon travail au moyen de différents commits et branche.
 
 ## Plus de détail sur le projet
